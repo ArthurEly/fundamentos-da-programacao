@@ -39,7 +39,7 @@ if (columns=rows){
     for(var i=0;i<rows;i++){
         firstDiagonalSum += array[i][i]
         //columns-1 para encaixar com os índices
-        var sdColumns = columns-1-i
+        var sdColumns = (columns-1)-i
         if (sdColumns <= 0){
         }
         secondDiagonalSum += array[i][sdColumns];

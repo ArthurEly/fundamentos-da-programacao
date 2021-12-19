@@ -17,6 +17,7 @@ positivos = (positivos/arr.length).toFixed(6)
 negativos = (negativos/arr.length).toFixed(6)
 zero = (zero/arr.length).toFixed(6)
 console.log(positivos + '\n' + negativos + '\n' + zero)
+
 console.log("um outro modo que achei no stackoverflow")
 console.log("v--explicação--v")
 let positive1 = arr.filter(number=>number>0)
