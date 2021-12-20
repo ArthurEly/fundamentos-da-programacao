@@ -1,17 +1,18 @@
 //https://www.youtube.com/watch?v=4tYoVx0QoN0&ab_channel=Cl%C3%A9mentMihailescu
-//devo ter demorado umas 2hrs pra pensar nisso
+//devo ter demorado umas 2h~2h30min pra pensar nisso
 //justo por ser meu começo nesse lance de algoritmos
+//fiz o código antes de ver a resolução do vídeo para saber se conseguiria fazer sem ajuda, somente com a explicação do que que teria que ser feito
 
 // CÓDIGO BASEADO EM MATRIZES COM LINHAS E COLUNAS DE QTDES IGUAIS
 
-// var array = [
-//     [1, 0, 0, 0, 0, 0],
-//     [0, 1, 0, 1, 1, 1],
-//     [0, 0, 1, 0, 1, 0],
-//     [1, 1, 0, 0, 1, 0],
-//     [1, 0, 1, 1, 0, 0],
-//     [1, 0, 0, 0, 0, 1]
-// ]
+var array = [
+    [1, 0, 0, 0, 0, 0],
+    [0, 1, 0, 1, 1, 1],
+    [0, 0, 1, 0, 1, 0],
+    [1, 1, 0, 0, 1, 0],
+    [1, 0, 1, 1, 0, 0],
+    [1, 0, 0, 0, 0, 1]
+]
 
 // v--template pra teste--v
 var array = [
