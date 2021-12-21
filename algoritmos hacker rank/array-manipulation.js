@@ -62,7 +62,7 @@
 //tendo o resultado da última versão do array, só pegar o maior número encontrado no array e eras isso :)
 //
 //OBS.: esse versão eu fiz sem otimização, até porque no presente momento nao sei como otimizar um algoritmo
-//      o arquivo otimizado é o array-manipulation-otimizado.js
+//      o arquivo otimizado é o hards/array-manipulation-otimizado.js
 //      mas ja consegui ficar feliz de estabelecer uma lógica ao problema, mesmo nao sendo tao performático 
 //
 //CÓDIGO ABAIXO
@@ -93,6 +93,8 @@ function realizarSomaNosIndices(numeroParaSomar, indiceComeco, indiceFim){
     }
 }
 
+console.log(pegarValorMaximo(arrayResultado))
+
 function pegarValorMaximo(array){
     var valorMaximo = 0;
     for (var i=0; i<array.length; i++){
@@ -102,5 +104,3 @@ function pegarValorMaximo(array){
     }
     return valorMaximo;
 }
-
-console.log(pegarValorMaximo(arrayResultado))
