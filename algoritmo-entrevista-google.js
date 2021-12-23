@@ -6,23 +6,23 @@
 // CÓDIGO BASEADO EM MATRIZES COM LINHAS E COLUNAS DE QTDES IGUAIS
 
 var array = [
-    [1, 0, 0, 0, 0, 0],
-    [0, 1, 0, 1, 1, 1],
-    [0, 0, 1, 0, 1, 0],
-    [1, 1, 0, 0, 1, 0],
-    [1, 0, 1, 1, 0, 0],
-    [1, 0, 0, 0, 0, 1]
+    [1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1, 1]
 ]
 
 // v--template pra teste--v
-var array = [
+// var array = [
     // [0, 0, 0, 0, 0, 0],
     // [0, 0, 0, 0, 0, 0],
     // [0, 0, 0, 0, 0, 0],
     // [0, 0, 0, 0, 0, 0],
     // [0, 0, 0, 0, 0, 0],
     // [0, 0, 0, 0, 0, 0],
-]
+// ]
 var comprimentoDaMatriz = array.length;
 var valorMaximoPermitido = comprimentoDaMatriz-1;//pra bater com os índices da matriz
 
