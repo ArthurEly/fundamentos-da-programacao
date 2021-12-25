@@ -16,16 +16,11 @@ if (amOrPm == "PM"){
     
     time = time.slice(3);
     time = newHourString + ":" + time;
-    console.log(time)
 } else{
     var hour = parseInt(time.slice(0,2));  
     if (hour==12){
         var newHourString = "00";
         time = time.slice(3);
-        time = newHourString + ":" + time;
-        console.log(time)   
-    } else {
-        console.log(time)   
-    }
-     
+        time = newHourString + ":" + time; 
+    }     
 }
